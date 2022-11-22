@@ -2,8 +2,8 @@ class ProductosMemDAO {
 
     constructor() {
         this.productos = [
-            { id: '1', producto: 10, nombre: 'Juan', apellido: 'Perez', curso:'22D' },
-            { id: '2', producto: 8, nombre: 'Jose', apellido: 'Gimenez', curso:'21D' },
+            { id: '1', nombre: 'TV', precio: 100, descripcion:'tv 32', url:'www.google.com.ar' },
+            { id: '2', nombre: 'Heladera',  precio: 200, descripcion:'heladera no frost', url:'www.google.com.br' },
         ]
     }
 
